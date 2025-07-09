@@ -1,3 +1,11 @@
+# Autor: Claudia Leins
+# Erstellungsdatum: 2025-07-09
+# Beschreibung: 
+# GUI-Anwendung für den SmartTaskBot mit CRUD-Funktionalität.
+# Ermöglicht das Anzeigen, Hinzufügen, Bearbeiten, 
+# Löschen und Markieren von Aufgaben (To-Dos) über eine REST-API.
+#-----------------------------------------------------------------
+
 import tkinter as tk
 from tkinter import messagebox
 import requests

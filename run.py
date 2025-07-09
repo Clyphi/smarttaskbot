@@ -1,3 +1,12 @@
+# Autor: Claudia Leins
+# Erstellungsdatum: 2025-07-09
+# Beschreibung: 
+# Initialisiert die Flask-Anwendung und erstellt die Datenbankstruktur.
+# Erzeugt alle definierten Datenbanktabellen via SQLAlchemy und gibt
+# eine Übersicht der vorhandenen Tabellen aus. Startet den Flask-Dev-Server
+# im Debug-Modus bei direkter Ausführung.
+#-----------------------------------------------------------------
+
 from app import create_app
 from app.models import db
 
