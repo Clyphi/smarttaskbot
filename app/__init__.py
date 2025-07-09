@@ -1,3 +1,12 @@
+# Autor: Claudia Leins
+# Erstellungsdatum: 2025-07-09
+# Beschreibung: 
+# Flask-Anwendungskonfiguration und Factory-Funktion.
+# Erstellt die Flask-App-Instanz, konfiguriert die Datenbank (SQLite)
+# und registriert den Haupt-Blueprint. Setzt den Datenbankpfad
+# eine Ebene über dem app-Verzeichnis (instance/smarttaskbot.db).
+#-----------------------------------------------------------------
+
 from flask import Flask
 from .models import db
 from .routes import main
