@@ -1,3 +1,13 @@
+# Autor: Claudia Leins
+# Erstellungsdatum: 2025-07-09
+# Beschreibung: 
+# API-Routen für den SmartTaskBot.
+# Enthält alle REST-Endpoints für Aufgabenverwaltung:
+# - Anzeigen, Hinzufügen, Aktualisieren und Löschen von Tasks
+# - Validierung von Eingabedaten
+# - JSON-basierte Kommunikation
+#-----------------------------------------------------------------
+
 from flask import Blueprint, request, jsonify
 from .models import db, Task
 

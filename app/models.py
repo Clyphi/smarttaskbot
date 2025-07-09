@@ -1,3 +1,11 @@
+# Autor: Claudia Leins
+# Erstellungsdatum: 2025-07-09
+# Beschreibung: 
+# Datenbankmodelle für die SmartTaskBot Anwendung.
+# Definiert das Task-Modell mit Feldern für Titel, Beschreibung,
+# Fälligkeitsdatum, Priorität und Erledigungsstatus.
+#-----------------------------------------------------------------
+
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
